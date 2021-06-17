@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.form-control {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid green;
+  padding: 0.5rem 0;
+  min-width: 15rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid red;
+}
+.success-message {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid green;
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  width: 10rem;
+  background-color: #8e518d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #9e619d;
+}
